@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> <!-- Font Awesome -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              spacing: {
+                13: '3.25rem'
+              },
+              fontFamily: {
+                quicksand: ['Quicksand'],
+                montserrat: ['Montserrat'],
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+
+    <!-- navbar -->
+  <nav class="bg-gray-800 p-10 font-montserrat shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-white text-2xl font-bold">IPAS Digital Book</div>
+      <ul class="flex space-x-4">
+        <li><a href="home.html" class="text-white hover:text-slate-300 active:text-slate-500 transition duration-300">Home</a></li>
+        <li><a href="profile.html" class="text-white hover:text-slate-300 active:text-slate-500 transition duration-300">Profile</a></li>
+        <li><a href="material.html" class="text-white hover:text-slate-300 active:text-slate-500 transition duration-300">Material</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- card -->
+  <style>
+    body {
+    background: linear-gradient(-45deg, #ffd89b, #19547b);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  </style>
+  
+  <!-- card -->
+  <div class="bg-gradient flex justify-center items-center min-h-screen">
+  <div class="font-quicksand bg-gray-800 shadow-lg rounded-lg overflow-hidden w-96">
+    <div class="bg-white text-gray-800 p-4">
+        <h1 class="text-2xl font-semibold">Rakha Fausta</h1>
+        <p class="text-sm">IT Enthusiast</p>
+    </div>
+    <div class="p-10">
+        <img src="assets/kaowkowk.jpg" alt="" class="w-32 h-32 mx-auto rounded-full mb-10">
+        <p class="text-sm text-white mb-2"><strong>Nama Lengkap:</strong> Rakha Fausta Adinata Raharja</p>
+        <p class="text-sm text-white mb-2"><strong>Tempat Tgl Lahir:</strong> Semarang, 11 Oktober 2007</p>
+        <p class="text-sm text-white mb-2"><strong>Umur:</strong> 15 Tahun</p>
+        <p class="text-sm text-white mb-2"><strong>Hobi:</strong> Bermain video game</p>
+        <p class="text-sm text-white mb-2"><strong>Cita-cita:</strong> Web Engineer, Web Developer</p>
+    </div>
+</div>
+</div>
+
+<!-- footer -->
+<footer class="bg-gray-800 text-white py-12 font-montserrat shadow-lg">
+  <div class="container mx-auto flex flex-wrap justify-between">
+    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+      <h2 class="text-2xl font-semibold mb-4">Quick Links</h2>
+      <ul class="list-none">
+        <li><a href="home.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+        <li><a href="profile.html" class="text-gray-400 hover:text-white transition duration-300">Profile</a></li>
+        <li><a href="material.html" class="text-gray-400 hover:text-white transition duration-300">Material</a></li>
+      </ul>
+    </div>
+    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+      <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+      <p class="text-gray-400">Sriwijaya Street</p>
+      <p class="text-gray-400">City, Semarang</p>
+      <p class="text-gray-400">Email: rakhafausta07@gmail.com</p>
+      <p class="text-gray-400">Phone: +62 895-3390-23888</p>
+    </div>
+    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+      <h2 class="text-2xl font-semibold mb-4">Connect</h2>
+      <div class="flex space-x-4">
+        <a href="https://instagram.com/rakhaafd?utm_source=qr&igshid=OGU0MmVlOWVjOQ==" class="text-gray-400 hover:text-white transition duration-300">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rakha-fausta-17aba1286/" class="text-gray-400 hover:text-white transition duration-300">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/rakhaafd" class="text-gray-400 hover:text-white transition duration-300">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="mt-8 text-center">
+    <p class="text-gray-400">Made with luv by Rakha Fausta.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Material</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> <!-- Font Awesome -->    
+<script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              spacing: {
+                13: '3.25rem'
+              },
+              fontFamily: {
+                quicksand: ['Quicksand'],
+                montserrat: ['Montserrat'],
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+
+<!-- navbar -->
+  <nav class="bg-sky-500 p-10 font-montserrat shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-white text-2xl font-bold">IPAS Digital Book</div>
+      <ul class="flex space-x-4">
+        <li><a href="home.html" class="text-white hover:text-sky-700 active:text-sky-900 transition duration-300">Home</a></li>
+        <li><a href="profile.html" class="text-white hover:text-sky-700 active:text-sky-900 transition duration-300">Profile</a></li>
+        <li><a href="material.html" class="text-white hover:text-sky-700 active:text-sky-900 transition duration-300">Material</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- head -->
+    <section class="font-quicksand max-w-3xl mx-auto">
+        <h2 class="text-center py-8 text-6xl font-bold"> <span class="font-montserrat font-bold bg-gradient-to-t from-[#ADF7F2] to-[#15AAFF] bg-clip-text text-transparent">EKOSISTEM</span></h2>
+        <div class="py-5 text-lg italic font-light">Created by Rakha Ganteng - Friday, 7 Sept 2023</a></div>
+        <p class="py-3 text-lg"> <span class="bg-cyan-200">Ekosistem adalah suatu sistem ekologi yang terbentuk oleh hubungan timbal balik tak terpisahkan antara makhluk hidup dengan lingkungannya.</span> Ekosistem bisa dikatakan juga suatu tatanan kesatuan secara utuh dan menyeluruh antara segenap unsur lingkungan hidup yang saling memengaruhi.</p>
+        <p class="py-3 text-lg">Dalam ekosistem, organisme-organisme saling bergantung satu sama lain dalam berbagai cara, termasuk dalam hal makanan, tempat tinggal, reproduksi, dan berbagai interaksi lainnya. Ekosistem dapat bervariasi dalam skala, mulai dari yang sangat kecil seperti kolam air hujan hingga yang sangat besar seperti hutan hujan tropis atau samudra.</p>
+        <blockquote class="py-3 font-extralight italic text-xl">"Ekosistem adalah unit fungsional dasar dalam ekologi yang di dalamnya tercakup organisme dan lingkungannya (lingkungan biotik dan abiotik) dan diantara keduanya saling memengaruhi (Odum, 1993)."</blockquote>
+    </section>
+    
+<!-- rounded shape -->
+    <div class="max-w-lg my-5 border border-slate-200 rounded-xl mx-auto p-5 shadow-xl font-quicksand">
+      <video controls>
+        <source src="assets/y2mate.com - Komponen Biotik dan Abiotik_480p.mp4" type="video/mp4">
+      </video>
+    <h3 class="py-5 font-semibold text-gray-800">Komponen-Komponen Yang Ada Dalam Ekosistem Adalah Sebagai Berikut:</h3>
+    <p class="py-3 text-gray-800"><span class="bg-lime-300">Abiotik adalah unsur-unsur dalam ekosistem yang tidak hidup atau bersifat non-hayati</span>. seperti unsur fisik dan kimia seperti tanah, air, iklim, dan topografi yang memengaruhi ekosistem.</p>
+    <p class="py-3 text-gray-800"> <span class="bg-lime-300">Biotik mencakup semua organisme hidup dalam ekosistem, termasuk manusia, tumbuhan, hewan, dan mikroorganisme</span> yang saling berinteraksi dan memengaruhi ekosistem melalui kegiatan kehidupan mereka.</p>
+    </div>
+    
+    <div class="font-quicksand max-w-3xl mx-auto">
+    <p class="font-semibold text-3xl text-center mt-24 mb-10">Macam-Macam Ekosistem dan Bentuknya</p>
+    
+    <!-- ekosistem darat -->
+    <h3 class="font-semibold text-2xl">Ekosistem Darat</h3>
+    <p class="font-normal text-lg"> <span class="bg-yellow-300">Ekosistem darat mencakup beragam lingkungan, mulai dari hutan lebat dengan pohon-pohon yang tinggi hingga gurun yang tandus dan gersang.</span> Contoh ekosistem darat adalah hutan hujan tropis, padang rumput savana, hutan boreal, padang rumput gersang, gurun, tundra, dan pegunungan.</p>  
+    <img src="assets/forest-sun-rays.gif" alt="" class="mt-5 rounded-xl w-[400px]">
+    <audio id="audio1" controls class="mt-5 mb-16">
+        <source src="assets/birds-in-the-forest-wind-noise-of-leaves-10088-[AudioTrimmer.com].mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- ekosistem laut -->
+    <h3 class="font-semibold text-2xl">Ekosistem Laut</h3>
+    <p class="font-normal text-lg">Ekosistem laut adalah rumah bagi berbagai makhluk, mulai dari ikan kecil hingga paus raksasa, yang hidup di dalam air asin yang luas dan penuh dengan kehidupan. <span class="bg-yellow-300">Terumbu karang, sebagai salah satu ekosistem laut yang paling beragam dan produktif</span>, menyediakan tempat tinggal untuk ribuan spesies ikan dan organisme laut lainnya.</p>
+    <img src="assets/sea.gif" alt="" class="mt-5 rounded-xl w-[400px]">
+    <audio id="audio2" controls class="mt-5 mb-16">
+        <source src="assets/underwater-waves-5983.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- ekosistem buatan -->
+    <h3 class="font-semibold text-2xl">Ekosistem Buatan</h3>
+    <p class="font-normal text-lg"> <span class="bg-yellow-300">Ekosistem buatan adalah suatu sistem ekologis yang dibuat oleh manusia untuk meniru atau mensimulasikan kondisi alam atau ekosistem alami tertentu.</span> Ekosistem buatan sering digunakan untuk tujuan penelitian, pendidikan, atau kepentingan praktis lainnya. Contoh dari ekosistem buatan dapat berupa akuarium, vivarium, taman botani, dan kolam renang ekologi.</p>
+    <img src="assets/aquarium.gif" alt="" class="mt-5 rounded-xl w-[400px]">
+    <audio id="audio3" controls class="mt-5">
+        <source src="assets/bubbling-water-sound-effect-136528-[AudioTrimmer.com].mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+      const mediaElements = document.querySelectorAll('audio, video');
+
+      mediaElements.forEach((element) => {
+          element.addEventListener('play', () => {
+              mediaElements.forEach((otherElement) => {
+                  if (otherElement !== element && !otherElement.paused) {
+                      otherElement.pause();
+                  }
+              });
+          });
+      });
+  </script>
+
+  <!-- pengaruh manusia pada ekosistem -->
+  <h3 class="font-semibold text-3xl text-center mt-24 mb-10">Pengaruh Manusia Pada Ekosistem</h3>
+  <div class="bg-gray-200 py-4 mb-72">
+    <div class="container mx-auto px-4">
+        <div class="flex items-center">
+            <div class="border-l-2 border-black py-16 px-4">
+            </div>
+            <blockquote class="text-lg font-light ml-4">
+                "Pengaruh manusia pada ekosistem adalah dampak yang signifikan terhadap lingkungan alam. Ini mencakup deforestasi, pencemaran, perubahan iklim, overexploitasi sumber daya, hilangnya habitat, spesies invasif, perubahan penggunaan lahan, ketidakseimbangan rantai makanan, penggunaan pestisida, dan penghancuran zona pesisir.
+            </blockquote>
+            <blockquote class="text-lg font-light ml-8">
+              Pengaruh manusia pada ekosistem sering kali memiliki konsekuensi negatif terhadap keanekaragaman hayati, keseimbangan ekologis, dan kualitas lingkungan secara keseluruhan. <strong>Oleh karena itu, penting untuk mengadopsi praktik yang berkelanjutan dan melakukan upaya konservasi untuk melindungi ekosistem alami dan menjaga keseimbangan dalam interaksi manusia dengan lingkungan."</strong>
+            </blockquote>
+              </div>
+    </div>
+</div>
+</div>
+
+<!-- footer -->
+<footer class="bg-sky-500 text-white py-12 font-montserrat shadow-lg">
+  <div class="container mx-auto flex flex-wrap justify-between">
+    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+      <h2 class="text-2xl font-semibold mb-4">Quick Links</h2>
+      <ul class="list-none">
+        <li><a href="home.html" class="text-white hover:text-slate-500 transition duration-300">Home</a></li>
+        <li><a href="profile.html" class="text-white hover:text-slate-500 transition duration-300">Profile</a></li>
+        <li><a href="material.html" class="text-white hover:text-slate-500 transition duration-300">Material</a></li>
+      </ul>
+    </div>
+    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+      <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+      <p class="text-white">Sriwijaya Street</p>
+      <p class="text-white">City, Semarang</p>
+      <p class="text-white">Email: rakhafausta07@gmail.com</p>
+      <p class="text-white">Phone: +62 895-3390-23888</p>
+    </div>
+    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+      <h2 class="text-2xl font-semibold mb-4">Connect</h2>
+      <div class="flex space-x-4">
+        <a href="https://instagram.com/rakhaafd?utm_source=qr&igshid=OGU0MmVlOWVjOQ==" class="text-white hover:text-slate-500 transition duration-300">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rakha-fausta-17aba1286/" class="text-white hover:text-slate-500 transition duration-300">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/rakhaafd" class="text-white hover:text-slate-500 transition duration-300">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="mt-8 text-center">
+    <p class="text-white">Made with luv by Rakha Fausta.</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
